@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+
+p{
+    font-size: 16px;
+}
+
+.active-page{
+     
+    color: darkgoldenrod;
+}
+
+ 
+
+.list-item:hover{
+    color: chocolate;
+    transition: 0.3s;
+} 
+
+.hero-section{
+    background-image: url('https://admin.12grids.com/uploads/blogs/original_cover_images/Webp//best-website-design-for-agriculture-web-1.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+.formElement{
+    margin: 5px 500px;
+}
+
+
+
+ .message{
+   outline: none;
+   padding: 2px;
+ }
+
+ .footer{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+ }
