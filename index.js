@@ -41,3 +41,28 @@ document.getElementById('send-btn').addEventListener('click', function () {
       }, 1000);
     }
   });
+
+
+
+  // date-and-time
+
+  function updateDateTime() {
+    const now = new Date();
+  
+    // Format the date and time
+    const date = now.toLocaleDateString();
+    const time = now.toLocaleTimeString();
+  
+    // Combine date and time
+    const datetimeString = `${date} - ${time}`;
+  
+    // Update the content of the element with id "datetime"
+    document.getElementById('datetime').innerHTML = datetimeString;
+  }
+  
+  // Update the date and time every second
+  setInterval(updateDateTime, 1000);
+  
+  // Initial call to display the date and time immediately
+  updateDateTime();
+  
